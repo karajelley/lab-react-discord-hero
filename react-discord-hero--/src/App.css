@@ -1,0 +1,92 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #404EED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+#mac {
+  background-color: white;
+  color: #232729;
+}
+
+#browser {
+
+}
+
+#menu {
+  width: 40px;
+  height: 40px;
+
+}
+
+#logo {
+ width: 100px;
+ height: 20px;
+ cursor: pointer;
+}
+
+#bg {
+  flex: 1;
+  max-height: 900px; 
+  max-width: 900px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 50px;
+  right: 00px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 40%;
+  padding: 40px;
+  gap: 40px; 
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
